@@ -1,0 +1,10 @@
+# RDPD + SDAF — VisDrone small-object detection
+# `ultralytics` is vendored locally under ./ultralytics (do not pip-install it).
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+einops==0.8.1
+torch-dct==0.1.6
